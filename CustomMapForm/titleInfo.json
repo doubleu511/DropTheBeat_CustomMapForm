@@ -1,0 +1,19 @@
+{
+  "trackName": "TrackName",
+  "clipStartSec": 0,
+  "signatureColor": {
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 74
+  },
+  "artistName": "ArtistName",
+  "difficultys": [
+    {
+      "difficulty": 0,
+      "star": 1,
+      "bpm": 0
+    }
+  ],
+  "designerName": "DesignerName"
+}
