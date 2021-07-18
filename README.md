@@ -150,3 +150,7 @@ background.png, icon.png, music.mp3, video.mp4와 json파일들의 이름을 바
 ![8](https://user-images.githubusercontent.com/64317456/126069260-fb388285-0364-4ac6-8d62-c516007eef15.png)<br>
 **titleInfo에 난이도를 배열로 만들었다면 난이도에 따른 채보를 더 추가해서 만드셔야 합니다.**<br>
 ![9](https://user-images.githubusercontent.com/64317456/126069297-9b16ba98-cd2f-4e60-b32d-4f96c3d84bdc.png)
+
+* * *
+
+#### 여기까지 하셨다면 게임을 껐다 키시면 적용되어 있을겁니다. (없다면 다시 글을 보면서 해보세요)
