@@ -62,8 +62,8 @@ background.png, icon.png, music.mp3, video.mp4와 json파일들의 이름을 바
 ```jsonc
 {
   "trackName": "Unity",     // 곡의 이름을 설정합니다.
-  "clipStartSec": 50,       // 타이틀에서 곡이 시작할 타이밍(초)를 설정합니다.
-  "signatureColor": {       // 타이틀에서 오디오 스펙트럼 색상 (RGBA)
+  "clipStartSec": 50,       // 곡 선택 화면에서 곡이 시작할 타이밍(초)를 설정합니다.
+  "signatureColor": {       // 곡 선택 화면에서 오디오 스펙트럼 색상 (RGBA)
     "r": 195,
     "g": 25,
     "b": 195,
@@ -134,3 +134,22 @@ background.png, icon.png, music.mp3, video.mp4와 json파일들의 이름을 바
 ```
 
 >json이기 때문에 복사하셨다면 주석은 모두 지우셔야 합니다.
+
+### 레코드 방법
+여기까지 오셨다면 Levels 폴더 안에 직접 짠 채보 json 파일을 넣을 차례입니다.<br>
+그러기 위해선 **게임 안에 레코듣 시스템을 이용하시면됩니다.**
+
+1. 채보를 짤 mp3 파일을 준비합니다.<br>
+2. 그 mp3 파일을 Drop The Beat 게임 빌드 파일 폴더 내에 MusicData/---[RecordFiles]--- 폴더 안에다가 놓으세요.<br>
+![4](https://user-images.githubusercontent.com/64317456/126068914-27012559-828b-41de-b3fa-4b3cde718054.png)<br>
+3. 게임을 실행하여 타이틀에서 RECORD 탭으로 들어갑니다.<br>
+![5](https://user-images.githubusercontent.com/64317456/126069011-01a901ec-4aed-440c-9e67-83c06aca27d8.png)<br>
+4. 레코드합니다.<br>
+![6](https://user-images.githubusercontent.com/64317456/126069055-31da509b-4cdb-411c-808f-947c66e0603c.png)<br>
+5. 나온 recordFile.json의 이름을 **titleInfo에서 설정한 난이도대로 바꿉니다.**<br>
+![7](https://user-images.githubusercontent.com/64317456/126069164-ce597164-f0bd-4f69-8caf-215dd462cade.png)<br>
+**NORMAL 이라면 Difficulty0, HARD라면 Difficulty1, EXTREME라면 Difficulty2 이런식입니다.**<br>
+6. 해당 json 파일을 Levels 폴더 안으로 이동시킵니다.<br>
+![8](https://user-images.githubusercontent.com/64317456/126069260-fb388285-0364-4ac6-8d62-c516007eef15.png)<br>
+**titleInfo에 난이도를 배열로 만들었다면 난이도에 따른 채보를 더 추가해서 만드셔야합니다.**<br>
+![9](https://user-images.githubusercontent.com/64317456/126069297-9b16ba98-cd2f-4e60-b32d-4f96c3d84bdc.png)
