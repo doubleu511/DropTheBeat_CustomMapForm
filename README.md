@@ -137,7 +137,7 @@ background.png, icon.png, music.mp3, video.mp4와 json파일들의 이름을 바
 
 ### 레코드 방법
 여기까지 오셨다면 Levels 폴더 안에 직접 짠 채보 json 파일을 넣을 차례입니다.<br>
-그러기 위해선 **게임 안에 레코듣 시스템을 이용하시면됩니다.**
+그러기 위해선 **게임 안에 레코드 시스템을 이용하시면됩니다.**
 
 1. 채보를 짤 mp3 파일을 준비합니다.<br>
 2. 그 mp3 파일을 Drop The Beat 게임 빌드 파일 폴더 내에 MusicData/---[RecordFiles]--- 폴더 안에다가 놓으세요.<br>
