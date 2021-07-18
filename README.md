@@ -81,7 +81,7 @@ background.png, icon.png, music.mp3, video.mp4와 json파일들의 이름을 바
 #### ingameInfo.json
 ```jsonc
 {
-  "trackName": "#1f1e33",     // 곡의 이름을 설정합니다.
+  "trackName": "Unity",     // 곡의 이름을 설정합니다.
   "noteColors": [             // 노트의 색상을 설정합니다. 이 색상 배열 중 랜덤으로 나오게 됩니다. (RGBA)
     {
       "r": 195,
