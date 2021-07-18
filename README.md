@@ -72,7 +72,7 @@ background.png, icon.png, music.mp3, video.mp4와 json파일들의 이름을 바
   "artistName": "TheFatRat",    // 곡의 작곡가
   "difficultys": [              // 난이도 배열
     {
-      "difficulty": 1,          // 난이도는 0(NORMAL), 1(HARD), 2(EXTREME)까지 가능합니다.
+      "difficulty": 1,          // 난이도는 0(NORMAL), 1(HARD), 2(EXTREME) 총 3개까지 배열 가능합니다. 또한 난이도 순서대로 배열해 주셔야 합니다!
       "star": 1,                // 해당 난이도의 실제 난이도 값 0~11 (소수점 가능)
       "bpm": 0                  // 곡의 BPM
     }
@@ -117,13 +117,13 @@ background.png, icon.png, music.mp3, video.mp4와 json파일들의 이름을 바
     "b": 195,
     "a": 192
   },
-  "containerColor": {     // 앞쪽 노트패널 색상 (RGBA)
+  "containerColor": {     // 앞쪽 노트 패널 색상 (RGBA)
     "r": 195,
     "g": 89,
     "b": 195,
     "a": 177
   },
-  "sideContainerColor": { // 뒤쪽 노트패널 색상 (RGBA)
+  "sideContainerColor": { // 뒤쪽 노트 패널 색상 (RGBA)
     "r": 195,
     "g": 213,
     "b": 195,
@@ -148,8 +148,8 @@ background.png, icon.png, music.mp3, video.mp4와 json파일들의 이름을 바
 ![6](https://user-images.githubusercontent.com/64317456/126069055-31da509b-4cdb-411c-808f-947c66e0603c.png)<br>
 5. 나온 recordFile.json의 이름을 **titleInfo에서 설정한 난이도대로 바꿉니다.**<br>
 ![7](https://user-images.githubusercontent.com/64317456/126069164-ce597164-f0bd-4f69-8caf-215dd462cade.png)<br>
-**NORMAL 이라면 Difficulty0, HARD라면 Difficulty1, EXTREME라면 Difficulty2 이런식입니다.**<br>
+**NORMAL 이라면 Difficulty0, HARD라면 Difficulty1, EXTREME라면 Difficulty2 이런 식입니다.**<br>
 6. 해당 json 파일을 Levels 폴더 안으로 이동시킵니다.<br>
 ![8](https://user-images.githubusercontent.com/64317456/126069260-fb388285-0364-4ac6-8d62-c516007eef15.png)<br>
-**titleInfo에 난이도를 배열로 만들었다면 난이도에 따른 채보를 더 추가해서 만드셔야합니다.**<br>
+**titleInfo에 난이도를 배열로 만들었다면 난이도에 따른 채보를 더 추가해서 만드셔야 합니다.**<br>
 ![9](https://user-images.githubusercontent.com/64317456/126069297-9b16ba98-cd2f-4e60-b32d-4f96c3d84bdc.png)
