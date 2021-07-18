@@ -14,14 +14,11 @@
 - titleInfo.json
 #### 필요하지만 제공되지 않은 양식
 - music.mp3<br>
-음악 파일입니다. 직접 다운받으셔서 파일에 넣으셔야 합니다.
 - Levels/Difficulty0.json
 - Levels/Difficulty1.json
 - Levels/Difficulty2.json<br>
-json 파일은 아래에 후술하겠습니다.
 #### 선택적 사항
 - video.mp4<br>
-비디오 파일입니다. 있으면 좋고 없어도 상관없습니다.
 
 >이 양식들은 Drop The Beat 게임 빌드 파일 폴더 내에 MusicData에서도 찾아볼 수 있습니다.
 <br>~~사실 직접 보는게 이거 보는거보다 빠를 수도 있습니다~~
